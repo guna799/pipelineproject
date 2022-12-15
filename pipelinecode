@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('plan') {
+            steps {
+                echo 'Planing is done'
+                echo "plan is being planned"
+            }
+        }
+        stage('code') {
+            steps {
+                echo 'developing the code'
+                echo "it is under devlopment"
+                
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'building'
+                echo "it is ready to build"
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'Testing'
+                echo "you can test it now"
+            }
+        }
+    }
+}
