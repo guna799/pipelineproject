@@ -1,0 +1,13 @@
+pipeline{
+  agent any
+  stages
+  {
+  stage("welcome")
+  {
+    steps{
+      echo "welocme to git repository"
+      echo "this scm management"
+      }
+      }
+      }
+      }
