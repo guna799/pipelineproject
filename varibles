@@ -3,8 +3,8 @@ pipeline
 agent any
 environment
 {
-name="guna"
-age="22"
+NAME='GUNA'
+AGE='22'
 }
 stages
 {
