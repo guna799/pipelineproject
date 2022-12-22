@@ -12,8 +12,9 @@ stage("details")
 {
 steps
 {
-echo 'name of the user is ${name}'
-echo 'age of the user is ${age}'
+echo 'name of the user is ${NAME} '
+echo 'age of the user is ${AGE} '
+sh 'printenv' 
 }
 }
 }
