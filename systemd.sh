@@ -6,11 +6,6 @@ pipeline {
             choices: ['zookeeper', 'kafka', 'Docker'],
             description: 'To start the service'
         )
-          choice(
-            name: 'Stopservice',
-            choices: ['zookeeper', 'kafka', 'Docker'],
-            description: 'To start the service'
-        )
         choice(
             name: 'StatusCheck',
             choices: ['zookeeper', 'kafka', 'Docker'],
